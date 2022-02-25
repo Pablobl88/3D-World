@@ -1,7 +1,7 @@
 
 import './App.css';
-import NavBar from './components/NavBar.jsx';
-import ItemListContainer from './container/ItemListContainer';
+import NavBar from './layout/NavBar/NavBar.jsx';
+import ItemListContainer from './components/container/NewContainer';
 
 
 
@@ -9,11 +9,14 @@ function App() {
   return (
     <>
     <NavBar></NavBar>
-    <ItemListContainer></ItemListContainer>
+    <NewContainer></NewContainer>
     <div className="App">
-     <h1>E-Commerce 3D World</h1>
+     <h1></h1>
+
     </div>
     </>
+
+    
   );
 }
 

@@ -1,5 +1,6 @@
 import React from 'react'
-import logo from './3D-world.png';
+import logo from '../../assets/images/3D-world.png';
+import CartWidget from '../../components/CartWidget/CartWidget';
 
 const NavBar = () => {
   return (
@@ -14,8 +15,7 @@ const NavBar = () => {
             <a className="mr-5 hover:text-gray-900" href='#'>Manga y Anime</a>
             <a className="mr-5 hover:text-gray-900" href='#'>Varios</a>
             </nav>
-            <button className="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">Carrito
-            </button>
+            <CartWidget className="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0"/>
         </div>
     </header>
   )
