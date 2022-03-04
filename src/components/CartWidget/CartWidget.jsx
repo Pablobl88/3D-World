@@ -1,5 +1,5 @@
 import React from 'react'
-import { BsCart4 } from "react-icons/gi"
+import { BsCart4 } from "react-icons/bs"
 
 const CartWidget = ({qty = 0}) => {
     return (
